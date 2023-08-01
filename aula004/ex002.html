@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natal</title>
-</head>
-
-<style>
-    * {
-        margin: 0px;
-        padding: 0px;
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS</title>
+  </head>
+  <body>
+    <h1>Vamos recomeçar essa budega</h1>
+    <label for="velocidade_do_carro">Velocidade do carro: </label>
+    <input type="number" name="velocidade_do_carro" id="velocidade_do_carro" />
+    <input type="button" value="Calcular" onclick="calcular()" />
+    <p id="multa"></p>
+  </body>
+  <script>
+    function calcular() {
+      var velocidade_string = document.getElementById("velocidade_do_carro");
+      var velocidade = Number(velocidade_string.value);
+      var resposta = document.getElementById("resposta");
+      var multa = document.getElementById("multa");
+      if (velocidade > 50) {
+        multa.innerHTML = `Você está preso! Você está a ${velocidade}Km/h, excedendo o limite de velocidade de 50Km/h!`;
+      } else {
+        multa.innerHTML = `Parabéns, você não excedeu o limite de velocidade de 50Km/h, pois está em ${velocidade}Km/h!`
+      }
     }
-
-    body {
-        width: 300px;
-
-    }
-</style>
-
-<body>
-    <main>
-    </main>
-</body>
-
+  </script>
 </html>
