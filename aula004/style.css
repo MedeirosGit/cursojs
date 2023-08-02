@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  padding: 3.2px;
+}
+
+ol,
+ul {
+  padding-left: 40px;
+}
+
+/* Estilos globais para o corpo da página */
+body {
+  background-image: linear-gradient(to bottom, lightblue, blue);
+  min-height: 100vh;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, blue, darkblue);
+  color: white;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  margin: 10px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 10px;
+  list-style-type: none;
+  margin: 10px;
+}
+
+nav a {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-decoration: none;
+  background-color: darkblue;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 200ms;
+}
+
+nav a:hover {
+  background-color: inherit;
+  transition: 200ms;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  max-width: 600px;
+  background-color: white;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para títulos dentro do conteúdo principal */
+main h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main h2,
+main h3 {
+  margin: 10px 0px 10px 0px;
+  background-image: linear-gradient(to right, lightblue, transparent);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+main p {
+  text-align: justify;
+  text-indent: 30px;
+}
+
+main a {
+  color: black;
+  text-decoration: none;
+  transition: 200ms;
+}
+
+main a:hover {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  text-decoration: underline;
+  transition: 200ms;
+}
+
+main .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.inputs,
+.resultado {
+  width: 50%;
+}
+
+.resultado h3,
+.resultado p {
+  margin-left: 10px;
+}
+
+.preco {
+  margin-right: 7.5px;
+}
+
+.botao {
+  text-align: right;
+}
+
+.botao input {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  transition: 200ms;
+}
+
+.botao input:hover {
+  background-color: lightblue;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+li {
+  margin: 5px 0px 0px 0px;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: lightblue;
+  transition: 200ms;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: white;
+  transition: 200ms;
+}

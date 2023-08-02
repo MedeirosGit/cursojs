@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculador de Custo-Benefício</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="index.html">Calculador de Custo-Benefício</a></h1>
+    </header>
+    <main>
+      <article class="mae">
+        <h2>Insira abaixo os dados para calcular o custo-benefício</h2>
+
+        <section class="container">
+          <section class="inputs">
+            <h3>Insira aqui os valores e o preço</h3>
+            <section>
+              <label for="valor1">Custo-Benefício</label>
+              <input type="number" name="valor1" id="valor1" />
+            </section>
+            <section>
+              <label for="valor2" style="margin-right: 44.5px">Hardware</label>
+              <input type="number" name="valor2" id="valor2" />
+            </section>
+            <section>
+              <label for="valor3" style="margin-right: 84.5px">Tela</label>
+              <input type="number" name="valor3" id="valor3" />
+            </section>
+            <section>
+              <label for="valor4" style="margin-right: 57px">Câmera</label>
+              <input type="number" name="valor4" id="valor4" />
+            </section>
+            <section>
+              <label for="valor5" style="margin-right: 19px">Desempenho</label>
+              <input type="number" name="valor5" id="valor5" />
+            </section>
+            <section>
+              <label for="preco" class="preco" style="margin-right: 72px"
+                >Preço</label
+              >
+              <input type="number" name="preco" id="preco" />
+            </section>
+          </section>
+          <section class="resultado">
+            <h3>Resultado:</h3>
+            <section class="resposta">
+              <p id="resultado">
+                Preencha e clique em "calcular" para o resultado aparecer
+              </p>
+            </section>
+          </section>
+        </section>
+
+        <section class="botao">
+          <input type="button" value="Calcular" onclick="calcular()" />
+        </section>
+
+        <h2>Tutorial</h2>
+        <ul>
+          <li>Passo 1</li>
+          <ul>
+            <li>
+              Acessar o site
+              <a
+                href="https://www.tudocelular.com/"
+                target="_blank"
+                rel="external"
+                >Tudo Celular</a
+              >
+            </li>
+            <li>Clicar em "Preços"</li>
+            <li>Clicar em "Comparar" nos celulares desejados</li>
+          </ul>
+          <li>Passo 2</li>
+          <ul>
+            <li>
+              Preencher cada valor desse site com cada critério de análise
+            </li>
+            <ul>
+              <li>Custo-Benefício</li>
+              <li>Hardware</li>
+              <li>Tela</li>
+              <li>Câmera</li>
+              <li>Desempenho</li>
+            </ul>
+          </ul>
+        </ul>
+      </article>
+    </main>
+    <footer>
+      <p>
+        Criado por
+        <a
+          href="https://www.instagram.com/wendell.m_g/"
+          target="_blank"
+          rel="external"
+        >
+          <strong>Wendell Medeiros</strong>
+        </a>
+        para o Mundo!
+      </p>
+    </footer>
+    <script src="scripts.js"></script>
+  </body>
+</html>
